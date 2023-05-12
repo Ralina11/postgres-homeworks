@@ -8,9 +8,9 @@ result_customer = []
 result_orders = []
 
 """Пути до файлов csv"""
-way_employees = '/Users/ralina/Desktop/все проекты/postgres-homeworks/homework-1/north_data/employees_data.csv'
-way_custom = '/Users/ralina/Desktop/все проекты/postgres-homeworks/homework-1/north_data/customers_data.csv'
-way_orders = '/Users/ralina/Desktop/все проекты/postgres-homeworks/homework-1/north_data/orders_data.csv' \
+way_employees = 'north_data/employees_data.csv'
+way_custom = 'north_data/customers_data.csv'
+way_orders = 'north_data/orders_data.csv'
 
 """Чтение файла csv"""
 with open(way_employees, newline='') as File:
